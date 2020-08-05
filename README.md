@@ -2,4 +2,4 @@
 
 game to learn chrome browser tools
 
-[the game](redmikepumpkin.github.io/HackTestGame/game/index.html)
+[the game](http://redmikepumpkin.github.io/HackTestGame/game/index.html)
