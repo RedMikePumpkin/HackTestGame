@@ -1,0 +1,16 @@
+{
+  "name": "homecoffee",
+  "version": "1.0.0",
+  "description": "idk some random webapp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [],
+  "author": "1e1001",
+  "license": "GPL-3.0-or-later"
+}

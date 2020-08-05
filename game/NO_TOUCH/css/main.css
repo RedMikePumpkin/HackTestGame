@@ -1,0 +1,42 @@
+/* hey this file isn't part of any solution, it is just here to make it not look like garbage */
+kbd {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  padding: 0 0.3em;
+}
+button, input {
+  font-family: inherit;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  padding: 0.3em 0.7em;
+  outline: none;
+}
+button:active {
+  background-color: #ddd;
+}
+.center {
+  text-align: center;
+}
+.cover-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+}
+
+.image {
+  width: calc(100vw - 2em);
+  image-rendering: pixelated;
+}
+
+ul li {
+  list-style: none;
+}
+
+abbr {
+  text-decoration: none;
+}
