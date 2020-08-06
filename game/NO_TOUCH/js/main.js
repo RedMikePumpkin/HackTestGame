@@ -172,7 +172,7 @@ var c3 = false;
 setInterval(() => {
   if (document.body.innerHTML.replace(/HT\/{.*}.html(?!<\/a>)(?!['"])/g, "<a href='../$&'>$&</a>") !== document.body.innerHTML)
     document.body.innerHTML = document.body.innerHTML.replace(/HT\/{.*}.html(?!<\/a>)(?!['"])/g, "<a href='../$&'>$&</a>")
-  if (!c3 && location.pathname === "/HT/%7Bok7UX3utzvI%7D.html" && /contrast\((\d+)\)/g.exec(document.getElementsByClassName("image")[0].style.filter)[1] >= 20) {
+  if (!c3 && location.pathname.endsWith("/HT/%7Bok7UX3utzvI%7D.html") && /contrast\((\d+)\)/g.exec(document.getElementsByClassName("image")[0].style.filter)[1] >= 20) {
     document.getElementById("href").innerText = "--> HT/{Im4g3-M4nipul4tion-C00l}.html <--";
     c3 = true
   }
