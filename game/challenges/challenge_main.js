@@ -11,6 +11,7 @@ function WeirdHash(key) {
   if (enc === "JQ+vil?LR0mwlwel\x1c]dXZ") {
     // show key so that it can linkify
     document.getElementById("href").innerText = "--> " + key + " <--";
+    console.log("%cCORRECT","font-size:2em")
   }
   return enc // return
 }
