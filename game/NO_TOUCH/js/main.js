@@ -186,3 +186,7 @@ window.onload = () => {
     document.getElementsByClassName("image")[0].style.filter = "contrast(1)"
   document.querySelectorAll(".h-1em").forEach(i => i.height = parseFloat(getComputedStyle(document.body).fontSize) * 0.75)
 }
+
+function RunTextareaCode() {
+  Function(document.getElementById("code").value)();
+}

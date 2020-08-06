@@ -5,7 +5,7 @@ kbd {
   border-radius: 0.5em;
   padding: 0 0.3em;
 }
-button, input {
+button, input, textarea {
   font-family: inherit;
   background-color: #eee;
   border: 1px solid #ccc;
